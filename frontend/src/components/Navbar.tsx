@@ -19,7 +19,7 @@ export const Navbar = () => {
             alt="plinkoo Logo"
           /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Plinkoo.100x
+            Plinkoo.uday
           </span>
         </Link>
         <Button
@@ -33,9 +33,8 @@ export const Navbar = () => {
           <RxHamburgerMenu size={30} />
         </Button>{" "}
         <div
-          className={`w-full lg:hidden flex flex-col md:w-auto items-center ${
-            isMenuOpen ? "" : "hidden"
-          }`}
+          className={`w-full lg:hidden flex flex-col md:w-auto items-center ${isMenuOpen ? "" : "hidden"
+            }`}
           id="navbar-default"
         >
           <Button
